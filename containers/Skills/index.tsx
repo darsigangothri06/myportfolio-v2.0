@@ -17,10 +17,21 @@ export default function SkillsSection() {
           <ul className={styles.skillsTree} data-aos="fade-up">
             <li data-aos="fade-up">
               <span className={styles.skillsTreeRoot} data-aos="fade-up">
-                Development
+                Web Development
               </span>
 
               <DevelopmentSkillsTree />
+            </li>
+          </ul>
+          
+          {/* this tree will show what tools I use */}
+          <ul className={styles.skillsTree} data-aos="fade-up">
+            <li data-aos="fade-up">
+              <span className={styles.skillsTreeRoot} data-aos="fade-up">
+                Data Structures and Algorithms
+              </span>
+
+              <ToolSkillsTree />
             </li>
           </ul>
 
@@ -28,21 +39,10 @@ export default function SkillsSection() {
           <ul className={styles.skillsTree} data-aos="fade-up">
             <li data-aos="fade-up">
               <span className={styles.skillsTreeRoot} data-aos="fade-up">
-                Languages
+                Tools and Languages
               </span>
 
               <LanguageSkillsTree />
-            </li>
-          </ul>
-
-          {/* this tree will show what tools I use */}
-          <ul className={styles.skillsTree} data-aos="fade-up">
-            <li data-aos="fade-up">
-              <span className={styles.skillsTreeRoot} data-aos="fade-up">
-                Tools
-              </span>
-
-              <ToolSkillsTree />
             </li>
           </ul>
         </div>

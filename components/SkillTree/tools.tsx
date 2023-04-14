@@ -11,33 +11,29 @@ export default function ToolSkillsTree() {
   return (
     <ul>
       {/* text editors I use */}
-      <TreeBranch title="Text Editor">
-        <TreeLeaf title="Note pad" />
+      <TreeBranch title="Arrays & Strings">
+        <TreeLeaf title="Sorting" />
+        <TreeLeaf title="Searching" />
+        <TreeLeaf title="Heaps" />
       </TreeBranch>
 
-      {/* integrated development environment tools */}
-      <TreeBranch title="IDEs">
-        <TreeLeaf title="VS Code" />
-        <TreeLeaf title="Android Studio" />
+      <TreeBranch title="Linked Lists">
+        <TreeLeaf title="Fast & Slow" />
+        <TreeLeaf title="Floyd's Cycle" />
       </TreeBranch>
 
-      {/* ui/ux tools */}
-      <TreeBranch title="UI">
-        <TreeLeaf title="Figma" />
-        <TreeLeaf title="Adobe XD" />
+      <TreeBranch title="Trees">
+        <TreeBranch title="Traversals">
+          <TreeLeaf title="BFS" />
+          <TreeLeaf title="DFS" />
+        </TreeBranch>
+        <TreeLeaf title="Back Tracking" />
+        <TreeLeaf title="Recursions" />
       </TreeBranch>
-
-      {/* operating systems */}
-      <TreeBranch title="OS">
-        <TreeLeaf title="Linux" />
-      </TreeBranch>
-
-      {/* deployment related tools */}
-      <TreeBranch title="Deployment">
-        <TreeLeaf title="Vercel" />
-        <TreeLeaf title="GPages" />
-        <TreeLeaf title="Netlify" />
-        <TreeLeaf title="Render" />
+      <TreeBranch title="Other Algorithms">
+        <TreeBranch title="Two Pointers">
+          <TreeLeaf title="Prefix Sum" />
+        </TreeBranch>
       </TreeBranch>
     </ul>
   );

@@ -11,7 +11,8 @@ export default function DevelopmentSkillsTree() {
   return (
     <ul data-aos="fade-up">
       {/* web development skills */}
-      <TreeBranch title="Website">
+
+      {/* <TreeBranch title="Website">
         <TreeBranch title="Frontend">
           <TreeLeaf title="Next" />
           <TreeLeaf title="React" />
@@ -20,39 +21,55 @@ export default function DevelopmentSkillsTree() {
         <TreeBranch title="Backend">
           <TreeLeaf title="Express" />
         </TreeBranch>
-      </TreeBranch>
+      </TreeBranch> */}
 
-      {/* android development skills */}
-      <TreeBranch title="Android Apps">
-        <TreeLeaf title="React Native" />
-      </TreeBranch>
+      <TreeBranch title="Python">
 
-      {/* git and github */}
-      <TreeBranch title="Version Control">
-        <TreeBranch title="Git">
-          <TreeLeaf title="GitHub" />
+        <TreeBranch title="Frontend">
+          <TreeLeaf title="HTML" />
+          <TreeLeaf title="CSS" />
+          <TreeLeaf title="JS" />
+        </TreeBranch>
+
+        <TreeBranch title="Backend">
+          <TreeLeaf title="Python" />
+        </TreeBranch>
+
+        <TreeBranch title="Database">
+          <TreeLeaf title="SQLite" />
+        </TreeBranch>
+
+        <TreeBranch title="Framework">
+          <TreeLeaf title="Django" />
         </TreeBranch>
       </TreeBranch>
 
-      {/* databases */}
-      <TreeBranch title="Databases">
-        <TreeBranch title="RDBMS">
-          <TreeLeaf title="MySQL" />
-          <TreeLeaf title="PostgreSQL" />
+      <TreeBranch title="JavaScript">
+        <TreeBranch title="Frontend">
+          <TreeLeaf title="React" />
+          <TreeLeaf title="CSS" />
         </TreeBranch>
 
-        <TreeBranch title="NoSQL">
+        <TreeBranch title="Backend">
+          <TreeLeaf title="Node" />
+        </TreeBranch>
+
+        <TreeBranch title="Database">
           <TreeLeaf title="MongoDB" />
-          <TreeLeaf title="Firebase" />
+        </TreeBranch>
+        
+        <TreeBranch title="Framework">
+            <TreeLeaf title="Express" />
         </TreeBranch>
       </TreeBranch>
 
-      {/* clouds services */}
-      <TreeBranch title="Cloud">
-        <TreeLeaf title="GCP" />
-
-        <TreeLeaf title="AWS" />
+      {/* deployment related tools */}
+      <TreeBranch title="Deployment">
+        <TreeLeaf title="Vercel" />
+        <TreeLeaf title="Render" />
       </TreeBranch>
+
+      
     </ul>
   );
 }
