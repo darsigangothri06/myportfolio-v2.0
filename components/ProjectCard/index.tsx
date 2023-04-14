@@ -34,7 +34,7 @@ function ProjectCard({
         {/* {IconByProjectType[project_type]} */}
       </div>
       <p className={styles.project_description}>
-        {stringShortner(description, 240)}
+        {stringShortner(description, 270)}
       </p>
       <div className={styles.project_tags}>
         {arrayShortner(tags, 6).map((tag, index) => (
