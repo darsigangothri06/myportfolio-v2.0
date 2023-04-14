@@ -49,7 +49,7 @@ function WhatIDoSvg() {
 </g>
 <defs>
 <filter id="filter0_d_80_5765" x="0" y="0" width="445" height="393" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="20" dy="20"/>
 <feGaussianBlur stdDeviation="40"/>
@@ -58,8 +58,8 @@ function WhatIDoSvg() {
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_80_5765"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_80_5765" result="shape"/>
 </filter>
-<filter id="filter1_d_80_5765" x="0" y="267" width="445" height="327" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter1_d_80_5765" x="0" y="267" width="445" height="327" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="20" dy="20"/>
 <feGaussianBlur stdDeviation="40"/>
@@ -68,8 +68,8 @@ function WhatIDoSvg() {
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_80_5765"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_80_5765" result="shape"/>
 </filter>
-<filter id="filter2_d_80_5765" x="325" y="324" width="445" height="393" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter2_d_80_5765" x="325" y="324" width="445" height="393" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="20" dy="20"/>
 <feGaussianBlur stdDeviation="40"/>
@@ -78,8 +78,8 @@ function WhatIDoSvg() {
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_80_5765"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_80_5765" result="shape"/>
 </filter>
-<filter id="filter3_d_80_5765" x="325" y="116" width="445" height="327" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter3_d_80_5765" x="325" y="116" width="445" height="327" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="20" dy="20"/>
 <feGaussianBlur stdDeviation="40"/>
