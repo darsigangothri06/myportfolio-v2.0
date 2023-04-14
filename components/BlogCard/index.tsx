@@ -5,6 +5,7 @@
 import { AiOutlineLike } from "react-icons/ai";
 import { BlogType } from "@/@types";
 import { BsMedium } from "react-icons/bs";
+import {SiHashnode} from "react-icons/si"
 import Image from "next/image";
 import React from "react";
 import { RxExternalLink } from "react-icons/rx";
@@ -53,7 +54,7 @@ function BlogCard({
             <RxExternalLink size={25} />
           </a>
           <a href={link} target="_blank" title="visit the website">
-            <BsMedium size={25} />
+            <SiHashnode size={25} />
           </a>
           <a href={link} target="_blank" title="visit the website">
             <AiOutlineLike size={25} />

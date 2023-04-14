@@ -28,7 +28,7 @@ function CertificationCard({
         <h1 className={styles.title}>{title}</h1>
 
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={`/assets/${logo}`} alt={logo} />
+        {/* <img src={`/assets/${logo}`} alt={logo} /> */}
       </div>
 
       {/* eslint-disable-next-line @next/next/no-img-element */}
