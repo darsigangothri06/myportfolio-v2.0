@@ -21,17 +21,17 @@ function ProjectCard({
   title,
 }: ProjectCardProps) {
   //to map project type to icon
-  const IconByProjectType = {
-    web: <CiGlobe size={35} color="var(--secondary-text)" />,
-    android: <CiMobile1 size={35} color="var(--secondary-text)" />,
-    "UI/UX": <FaFigma size={35} color="var(--secondary-text)" />,
-  };
+  // const IconByProjectType = {
+  //   webapps: <CiGlobe size={35} color="var(--secondary-text)" />,
+  //   commandline: <CiMobile1 size={35} color="var(--secondary-text)" />,
+  //   "UI/UX": <FaFigma size={35} color="var(--secondary-text)" />,
+  // };
 
   return (
     <div className={`${styles.project_card} card_hover_effect`}>
       <div className={styles.project_card_header}>
         <h4 className={styles.project_title}>{title}</h4>
-        {IconByProjectType[project_type]}
+        {/* {IconByProjectType[project_type]} */}
       </div>
       <p className={styles.project_description}>
         {stringShortner(description, 240)}
