@@ -56,7 +56,7 @@ function index() {
 
       <AboutMe />
 
-      <SectionSeperator id={WHAT_I_DO_STRING} title="What i do" />
+      <SectionSeperator id={WHAT_I_DO_STRING} title="What I Know" />
 
       <WhatIDo />
 

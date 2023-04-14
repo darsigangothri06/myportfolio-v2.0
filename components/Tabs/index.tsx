@@ -36,13 +36,7 @@ function Tabs({ data, tabs }: TabsProps) {
       {/* content based on active tab */}
       <div className={`${styles.content} grid_container_for_cards`}>
         {data.map((item, index) => {
-          if (tabs[active] === "All") {
-            return (
-              <div key={index} className={styles.card}>
-                <ProjectCard {...item} />
-              </div>
-            );
-          } else if (
+          if (
             tabs[active].toLowerCase() === item.project_type.toLowerCase()
           ) {
             return (
