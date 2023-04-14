@@ -89,3 +89,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 393px) {
+  .title {
+    font-size: var(--text-xm) !important;
+  }
+}
