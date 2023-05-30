@@ -22,7 +22,7 @@ function Intro() {
           </div>
           <div className={styles.stats}>
             {/* <BsMouse className={styles.mouse} color="var(--tertiary-text)" size={20} /> */}
-            <StatsCard count="700" description="Problems Solved" />
+            <StatsCard count="750" description="Problems Solved" />
             <StatsCard count="10" description="Projects Completed" />
             <StatsCard count="3" description="Years of Experience" />
           </div>

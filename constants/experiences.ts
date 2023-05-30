@@ -8,7 +8,7 @@ export const EXPERIENCE: ExperienceType[] = [
     description:
       "I'm working as a Full Stack Developer at ZealYug, we are Developing a Hiring Platform that connects job seekers and employers with skills and talent.",
     from: "Feb 2023",
-    to: "Present",
+    to: "Apr 2023",
     link: "",
     logo: "po.png",
   },
