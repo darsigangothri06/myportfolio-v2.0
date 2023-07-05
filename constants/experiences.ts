@@ -33,16 +33,5 @@ export const EXPERIENCE: ExperienceType[] = [
     to: "June 2022",
     link: "",
     logo: "po.png",
-  },
-  {
-    id: "4",
-    title: "FrontEnd Developer Intern",
-    company: "Blu Ocean Studios Pvt. Ltd",
-    description:
-      "Developed a Webpage - \"Glameura\". Glameura is a patented and research based concept and its products are endorsed by the top most plastic surgeons and dermatologists in the country.",
-    from: "Mar 2022",
-    to: "Apr 2022",
-    link: "",
-    logo: "po.png",
-  },
+  }
 ];

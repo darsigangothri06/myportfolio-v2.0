@@ -24,7 +24,7 @@ function Intro() {
             {/* <BsMouse className={styles.mouse} color="var(--tertiary-text)" size={20} /> */}
             <StatsCard count="750" description="Problems Solved" />
             <StatsCard count="10" description="Projects Completed" />
-            <StatsCard count="3" description="Years of Experience" />
+            <StatsCard count="3" description="Certifications Completed" />
           </div>
           <a href="/files/DarsiGangothriResume.pdf" target="_blank">
             <Button size="large">Download Resume</Button>
