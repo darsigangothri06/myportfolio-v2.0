@@ -14,6 +14,16 @@ export const CERIFICATIONS: CertificationType[] = [
   },
   {
     id: "2",
+    title: "Postman Student Expert",
+    description: "Awarded for demonstrating proficiency with APIs and Postman by completing foundational tasks in Postman.",
+    date: "17 Aug, 2023",
+    certificate: "https://badgr.com/public/assertions/mX9cDBSTSjiEYaLBkpAzPw?identity__email=darsigangothri@gmail.com",
+    icon: "hr.png",
+    logo: "hr_logo.png",
+    image: "postman.png",
+  },
+  {
+    id: "3",
     title: "Problem Solving (Basic)",
     description: "Successfully cleared the assesment for the skill Problem solving (Basic)",
     date: "20 Jan, 2022",
@@ -23,7 +33,7 @@ export const CERIFICATIONS: CertificationType[] = [
     image: "first_rank.png",
   },
   {
-    id: "3",
+    id: "4",
     title: "Problem Solving (Intermediate)",
     description: "Successfully cleared the assesment for the skill Problem solving (Intermediate)",
     date: "25 Jan, 2022",
@@ -31,16 +41,6 @@ export const CERIFICATIONS: CertificationType[] = [
     icon: "hr.png",
     logo: "hr_logo.png",
     image: "first_rank.png",
-  },
-  {
-    id: "4",
-    title: "Python",
-    description: "Successfully cleared the assesment for the skill Python",
-    date: "30 Oct, 2021",
-    certificate: "https://www.hackerrank.com/certificates/40b4f35a0bda",
-    icon: "hr.png",
-    logo: "hr_logo.png",
-    image: "python.png",
   },
   {
     id: "5",

@@ -17,7 +17,7 @@ function Intro() {
               An Enthusiastic Programmer.
             </h3>
             <p className={styles.description}>
-              I&apos;m a Full Stack developer, Competitive Programmer with strong competency&nbsp;skills on Python. Currently, upskilling myself in Data&nbsp;Structures&nbsp;and&nbsp;Algorithms. I love to guide and support others.
+              I&apos;m a Software developer, Competitive Programmer with strong competency&nbsp;skills on Python. Currently, upskilling myself in Data&nbsp;Structures&nbsp;and&nbsp;Algorithms. I love to guide and support others.
             </p>
           </div>
           <div className={styles.stats}>

@@ -59,7 +59,7 @@ export const CODING_PROFILES: CodingProfileType[] = [
       "Java",
     ],
     contributions: 1500,
-    stars: 1
+    stars: 2
   },
   // {
   //   id: "5",

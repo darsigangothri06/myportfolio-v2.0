@@ -28,12 +28,17 @@ export default function ToolSkillsTree() {
           <TreeLeaf title="DFS" />
         </TreeBranch>
         <TreeLeaf title="Back Tracking" />
-        <TreeLeaf title="Recursions" />
+      </TreeBranch>
+      <TreeBranch title="Graphs">
+          <TreeBranch title="Matrix Traversals">
+            <TreeLeaf title="BFS" />
+            <TreeLeaf title="DFS" />
+          </TreeBranch>
+          <TreeLeaf title="Shortest Paths" />
       </TreeBranch>
       <TreeBranch title="Other Algorithms">
-        <TreeBranch title="Two Pointers">
+          <TreeLeaf title="Two Pointers" />
           <TreeLeaf title="Prefix Sum" />
-        </TreeBranch>
       </TreeBranch>
     </ul>
   );

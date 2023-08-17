@@ -46,20 +46,21 @@ export default function DevelopmentSkillsTree() {
 
       <TreeBranch title="JavaScript">
         <TreeBranch title="Frontend">
-          <TreeLeaf title="React" />
+          <TreeLeaf title="React.js" />
           <TreeLeaf title="CSS" />
         </TreeBranch>
 
         <TreeBranch title="Backend">
-          <TreeLeaf title="Node" />
+          <TreeLeaf title="Node.js" />
         </TreeBranch>
 
         <TreeBranch title="Database">
           <TreeLeaf title="MongoDB" />
+          <TreeLeaf title="MySQL" />
         </TreeBranch>
         
         <TreeBranch title="Framework">
-            <TreeLeaf title="Express" />
+            <TreeLeaf title="Express.js" />
         </TreeBranch>
       </TreeBranch>
 
