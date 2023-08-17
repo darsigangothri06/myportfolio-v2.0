@@ -8,8 +8,8 @@ export const CERIFICATIONS: CertificationType[] = [
     description: "Earned ELITE + SILVER for scoring 78% in Data Structures and Algorithms using Python from NPTEL",
     certificate: "https://www.hackerrank.com/certificates/9b1b1f9e1b5d",
     date: "09 Sept, 2022",
-    icon: "hr.png",
-    logo: "hr_logo.png",
+    icon: "",
+    logo: "",
     image: "second_rank.png",
   },
   {
@@ -18,8 +18,8 @@ export const CERIFICATIONS: CertificationType[] = [
     description: "Awarded for demonstrating proficiency with APIs and Postman by completing foundational tasks in Postman.",
     date: "17 Aug, 2023",
     certificate: "https://badgr.com/public/assertions/mX9cDBSTSjiEYaLBkpAzPw?identity__email=darsigangothri@gmail.com",
-    icon: "hr.png",
-    logo: "hr_logo.png",
+    icon: "",
+    logo: "",
     image: "postman.png",
   },
   {
