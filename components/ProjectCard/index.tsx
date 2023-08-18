@@ -2,7 +2,7 @@
  * @description ProjectCard component, provides card for each project
  */
 
-import { CiGlobe, CiMobile1 } from "react-icons/ci";
+import { CiGlobe, CiLock, CiMobile1 } from "react-icons/ci";
 import { arrayShortner, stringShortner } from "@/utils";
 
 import { AiFillGithub } from "react-icons/ai";
@@ -17,6 +17,7 @@ function ProjectCard({
   project_github_url,
   project_live_url,
   project_type,
+  is_private,
   tags,
   title,
 }: ProjectCardProps) {
@@ -58,6 +59,7 @@ function ProjectCard({
             <RxExternalLink size={30} />
           </a>
         )}
+        {is_private && <CiLock size={30} title="This is private repository" />}
       </div>
     </div>
   );

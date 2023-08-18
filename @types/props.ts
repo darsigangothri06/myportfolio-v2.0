@@ -21,6 +21,7 @@ export interface ProjectCardProps {
   project_type: "web apps" | "web pages" | "games" | "command line";
   project_live_url?: string;
   project_github_url?: string;
+  is_private?: boolean;
 }
 
 export interface StatsCardProps {
