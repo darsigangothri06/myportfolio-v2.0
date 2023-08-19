@@ -25,7 +25,7 @@ export const CODING_PROFILES: CodingProfileType[] = [
     logo: "leetcode_logo.png",
     languages_used: ["Python", "C", "JavaScript", "MySQL"],
     rating: 1503,
-    problem_solved: 700,
+    problem_solved: 750,
   },
   {
     id: "2",
