@@ -6,7 +6,7 @@ export const EXPERIENCE: ExperienceType[] = [
     title: "Full Stack Developer",
     company: "ZealYug",
     description:
-      "Developed Resumes UI using React.js and REST APIs for User Posts, Company Posts, Profiles, Resume Section, Authentication using JWT, Chats using Sockets using Node.js.",
+      "Developed Resumes UI using React.js and REST APIs for User Posts, Company Posts, Profiles, Resume Section, Authentication using JWT, Chats using Sockets.io in Node.js.",
     from: "Feb 2023",
     to: "Apr 2023",
     certificate: "https://drive.google.com/file/d/1qzB1n2DU6TnfB5ge5vJqlYC3jI0a6MZ4/view?usp=sharings",
