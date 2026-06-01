@@ -25,17 +25,17 @@ export const WHAT_I_DO_STRING = "whatido"; // tag to move to different section i
 export const ACHIEVEMENTS_STRING = "achivements"; // tag to move to different section in the page
 export const SKILLS_STRING = "skills"; // tag to move to different section in the page
 
-export const MY_EMAIL_ID = "darsigangothri@gmail.com"; // this is my email id
-export const EMAIL_ID_REDIRECT_URL = "mailto:darsigangothri@gmail.com"; // link to my GitHub profile
+export const MY_EMAIL_ID = "gangothri.darsi@gmail.com"; // this is my email id
+export const EMAIL_ID_REDIRECT_URL = "mailto:gangothri.darsi@gmail.com"; // link to my GitHub profile
 export const GITHUB_URL = "https://github.com/darsigangothri06"; // link to my GitHub profile
 export const LINKEDIN_URL =
   "https://www.linkedin.com/in/darsigangothri06/"; // url of my linkedin profile
 export const INSTAGRAM_URL = "https://www.instagram.com/darsigangothri"; // link of instagram account
 export const OLD_PORTFOLIO_URL = "https://gangothridarsi.me"; // the url of my old portfolio
 export const WHATS_APP_LINK = "https://wa.link/gn88ir";
-export const COPYRIGHT_TEXT = "© 2022 Gangothri Darsi";
+export const COPYRIGHT_TEXT = "© 2025 Gangothri Darsi";
 export const LEETCODE_URL = "https://leetcode.com/gangothrid528/";
-export const FB_URL = "https://www.facebook.com/vidhanshu.borade.18/";
+export const FB_URL = "";
 // regex constants
 export const EMAIL_REGEX =
   /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -47,3 +47,4 @@ export * from "./projects";
 export * from "./experiences";
 export * from "./achivements";
 export * from "./blogs";
+export * from "./codingProfiles";

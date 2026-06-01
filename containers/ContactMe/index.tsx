@@ -33,7 +33,7 @@ function ContactMe() {
                 <MdLocationOn size={25} />
               </span>
               <p className={styles.info_text}>
-                Guntur, Andhra Pradesh.
+                Hyderabad, India
               </p>
             </div>
 

@@ -65,16 +65,14 @@
       }
     }
     .stats {
-      display: flex;
-      gap: var(--gap-r);
-      align-items: center;
-      width: fit-content;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--gap-l);
 
       .statsCard {
         display: flex;
         gap: var(--gap-sm);
         align-items: center;
-        max-width: 200px;
 
         h1 {
           -webkit-text-stroke-width: 2px;
@@ -82,11 +80,13 @@
           color: transparent;
           font-weight: bold;
           font-size: var(--text-xl);
+          white-space: nowrap;
         }
 
         p {
           font-size: var(--text-sm);
           color: var(--secondary-text);
+          white-space: nowrap;
         }
       }
     }

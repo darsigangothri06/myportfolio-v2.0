@@ -4,7 +4,6 @@
 
 import {
   ABOUT_ME_TAG,
-  // ACHIEVEMENTS_TAG,
   BLOGS_TAG,
   CERTIFICATIONS_TAG,
   CODING_PROFILES_TAG,
@@ -75,9 +74,6 @@ function Header() {
         <li className={styles.nav_item}>
           <a href={EXPERIENCE_TAG}>Experience /&gt;</a>
         </li>
-        {/* <li className={styles.nav_item}>
-          <a href={ACHIEVEMENTS_TAG}>Achievements /&gt;</a>
-        </li> */}
         <li className={styles.nav_item}>
           <a href={BLOGS_TAG}>Blogs /&gt;</a>
         </li>
@@ -151,12 +147,6 @@ function Header() {
               Experience /&gt;
             </a>
           </li>
-          {/* <div className={styles.seperator}></div> */}
-          {/* <li className={styles.nav_item}>
-            <a href={ACHIEVEMENTS_TAG} onClick={toggleNav}>
-              Achievements /&gt;
-            </a>
-          </li> */}
           <div className={styles.seperator}></div>
           <li className={styles.nav_item}>
             <a href={BLOGS_TAG} onClick={toggleNav}>

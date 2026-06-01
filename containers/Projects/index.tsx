@@ -6,7 +6,7 @@ import styles from "@/styles/containers/projects.module.scss";
 function Projects() {
   return (
     <div className={`container grid_container_for_cards ${styles.wrapper}`}>
-      <Tabs tabs={["Web Apps", "Web Pages", "Games", "Command Line"]} data={PROJECTS} />
+      <Tabs tabs={["AI/ML", "Mobile Apps", "Web Apps"]} data={PROJECTS} />
     </div>
   );
 }

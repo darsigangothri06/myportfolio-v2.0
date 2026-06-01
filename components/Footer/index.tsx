@@ -1,13 +1,11 @@
 import {
   ABOUT_ME_TAG,
-  ACHIEVEMENTS_TAG,
   BLOGS_TAG,
   CERTIFICATIONS_TAG,
   CODING_PROFILES_TAG,
   CONTACT_ME_TAG,
   EMAIL_ID_REDIRECT_URL,
   EXPERIENCE_TAG,
-  FB_URL,
   GITHUB_URL,
   INSTAGRAM_URL,
   LEETCODE_URL,
@@ -17,9 +15,8 @@ import {
   SKILLS_TAG,
   WHAT_I_DO_TAG,
 } from "@/constants";
-import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 
-import { AiFillHeart } from "react-icons/ai";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import React from "react";
 import { SiLeetcode } from "react-icons/si";
@@ -73,9 +70,6 @@ function Footer() {
           <li className={styles.nav_item}>
             <a href={EXPERIENCE_TAG}>Experience /&gt;</a>
           </li>
-          {/* <li className={styles.nav_item}>
-            <a href={ACHIEVEMENTS_TAG}>Achievements /&gt;</a>
-          </li> */}
           <li className={styles.nav_item}>
             <a href={BLOGS_TAG}>Blogs /&gt;</a>
           </li>
@@ -103,12 +97,10 @@ function Footer() {
       <div className={styles.seperator}></div>
 
       <p className={`${styles.bottom} ${styles.desktop}`}>
-        © Gangothri Darsi | Designed and Developed with{" "}
-        <AiFillHeart size={15} /> Gangothri Darsi
+        Designed &amp; Developed by Gangothri Darsi — 2025
       </p>
       <p className={`${styles.bottom} ${styles.mobile}`}>
-        © Gangothri Darsi | D&D with{" "}
-        <AiFillHeart size={15} /> Gangothri Darsi
+        Gangothri Darsi — 2025
       </p>
     </div>
   );

@@ -2,7 +2,6 @@ import "aos/dist/aos.css";
 
 import {
   ABOUT_ME_STRING,
-  // ACHIEVEMENTS_STRING,
   BLOGS_STRING,
   CERTIFICATIONS_STRING,
   CODING_PROFILES_STRING,
@@ -14,7 +13,6 @@ import {
 } from "@/constants";
 import {
   AboutMe,
-  // Achievements,
   Certifications,
   CodingProfiles,
   ContactMe,
@@ -41,9 +39,10 @@ function index() {
     <>
       <Head>
         <title>
-          Gangothri Darsi
+          Gangothri Darsi — Software Engineer | AI/ML &amp; Full-Stack
         </title>
         <meta name="theme-color" content={"#000"} />
+        <meta name="description" content="Software Engineer with 2.5+ years building AI-powered EdTech products. Full-stack expertise in Flutter, Django, LLM integration, and multi-agent systems." />
       </Head>
 
       <NoSSR>
@@ -71,10 +70,6 @@ function index() {
       <SectionSeperator id={EXPERIENCE_STRING} title="Experience" />
 
       <Experience />
-
-      {/* <SectionSeperator id={ACHIEVEMENTS_STRING} title="Achievements" /> */}
-
-      {/* <Achievements /> */}
 
       <SectionSeperator id={BLOGS_STRING} title="Blogs" />
 

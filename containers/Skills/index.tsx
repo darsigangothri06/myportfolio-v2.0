@@ -1,4 +1,5 @@
 import {
+  AIMLSkillsTree,
   DevelopmentSkillsTree,
   LanguageSkillsTree,
   ToolSkillsTree,
@@ -13,33 +14,40 @@ export default function SkillsSection() {
       <div className={styles.skillsWrapper}>
 
         <div className={styles.skillsContent} data-aos="fade-up">
-          {/* this tree is for the develpment/techstack related skills */}
           <ul className={styles.skillsTree} data-aos="fade-up">
             <li data-aos="fade-up">
               <span className={styles.skillsTreeRoot} data-aos="fade-up">
-                Web Development
+                AI / ML
+              </span>
+
+              <AIMLSkillsTree />
+            </li>
+          </ul>
+
+          <ul className={styles.skillsTree} data-aos="fade-up">
+            <li data-aos="fade-up">
+              <span className={styles.skillsTreeRoot} data-aos="fade-up">
+                Development
               </span>
 
               <DevelopmentSkillsTree />
             </li>
           </ul>
           
-          {/* this tree will show what tools I use */}
           <ul className={styles.skillsTree} data-aos="fade-up">
             <li data-aos="fade-up">
               <span className={styles.skillsTreeRoot} data-aos="fade-up">
-                Data Structures and Algorithms
+                DSA
               </span>
 
               <ToolSkillsTree />
             </li>
           </ul>
 
-          {/* tree will display what languages I know */}
           <ul className={styles.skillsTree} data-aos="fade-up">
             <li data-aos="fade-up">
               <span className={styles.skillsTreeRoot} data-aos="fade-up">
-                Tools and Languages
+                Languages &amp; Tools
               </span>
 
               <LanguageSkillsTree />

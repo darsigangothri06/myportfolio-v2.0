@@ -1,8 +1,3 @@
-/**
- * @description Provides development skill tree
- * @author @sobhanbera
- */
-
 import React from "react";
 import TreeBranch from "./TreeBranch";
 import TreeLeaf from "./TreeLeaf";
@@ -10,67 +5,23 @@ import TreeLeaf from "./TreeLeaf";
 export default function DevelopmentSkillsTree() {
   return (
     <ul data-aos="fade-up">
-      {/* web development skills */}
-
-      {/* <TreeBranch title="Website">
-        <TreeBranch title="Frontend">
-          <TreeLeaf title="Next" />
-          <TreeLeaf title="React" />
-        </TreeBranch>
-
-        <TreeBranch title="Backend">
-          <TreeLeaf title="Express" />
-        </TreeBranch>
-      </TreeBranch> */}
-
-      <TreeBranch title="Python">
-
-        <TreeBranch title="Frontend">
-          <TreeLeaf title="HTML" />
-          <TreeLeaf title="CSS" />
-          <TreeLeaf title="JS" />
-        </TreeBranch>
-
-        <TreeBranch title="Backend">
-          <TreeLeaf title="Python" />
-        </TreeBranch>
-
-        <TreeBranch title="Database">
-          <TreeLeaf title="SQLite" />
-        </TreeBranch>
-
-        <TreeBranch title="Framework">
-          <TreeLeaf title="Django" />
-        </TreeBranch>
+      <TreeBranch title="Mobile">
+        <TreeLeaf title="Flutter" />
+        <TreeLeaf title="Riverpod" />
+        <TreeLeaf title="Hive" />
       </TreeBranch>
 
-      <TreeBranch title="JavaScript">
-        <TreeBranch title="Frontend">
-          <TreeLeaf title="React.js" />
-          <TreeLeaf title="CSS" />
-        </TreeBranch>
-
-        <TreeBranch title="Backend">
-          <TreeLeaf title="Node.js" />
-        </TreeBranch>
-
-        <TreeBranch title="Database">
-          <TreeLeaf title="MongoDB" />
-          <TreeLeaf title="MySQL" />
-        </TreeBranch>
-        
-        <TreeBranch title="Framework">
-            <TreeLeaf title="Express.js" />
-        </TreeBranch>
+      <TreeBranch title="Backend">
+        <TreeLeaf title="Django" />
+        <TreeLeaf title="Node.js" />
+        <TreeLeaf title="FastAPI" />
       </TreeBranch>
 
-      {/* deployment related tools */}
-      <TreeBranch title="Deployment">
-        <TreeLeaf title="Vercel" />
-        <TreeLeaf title="Render" />
+      <TreeBranch title="Cloud">
+        <TreeLeaf title="Firebase" />
+        <TreeLeaf title="GCP" />
+        <TreeLeaf title="AWS S3" />
       </TreeBranch>
-
-      
     </ul>
   );
 }

@@ -18,7 +18,7 @@ export interface ProjectCardProps {
   title: string;
   description: string;
   tags: string[];
-  project_type: "web apps" | "web pages" | "games" | "command line";
+  project_type: "web apps" | "web pages" | "games" | "command line" | "ai/ml" | "mobile apps";
   project_live_url?: string;
   project_github_url?: string;
   is_private?: boolean;

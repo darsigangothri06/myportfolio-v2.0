@@ -1,4 +1,5 @@
 import {
+  AIMLSkillsTree,
   DevelopmentSkillsTree,
   LanguageSkillsTree,
   ToolSkillsTree,
@@ -19,6 +20,7 @@ export {
   Button,
   SectionSeperator,
   Tabs,
+  AIMLSkillsTree,
   DevelopmentSkillsTree,
   LanguageSkillsTree,
   ToolSkillsTree,
