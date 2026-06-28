@@ -17,7 +17,7 @@ function Intro() {
               Software Engineer • AI/ML &amp; Full-Stack
             </h3>
             <p className={styles.description}>
-              Software Engineer with 2.5+ years building AI-powered EdTech products at scale. Full owner of Bryt&apos;s Tutor.ai app serving 1,000+ DAU across 120+ schools. Deep expertise in Flutter, Django, LLM integration, and adaptive learning systems.
+              Software Engineer with 2.5+ years building AI-powered EdTech products at scale. Major contributor to Bryt&apos;s Tutor.ai app serving 1,000+ DAU across 120+ schools. Deep expertise in Flutter, Django, LLM integration, and adaptive learning systems.
             </p>
           </div>
           <div className={styles.stats}>
