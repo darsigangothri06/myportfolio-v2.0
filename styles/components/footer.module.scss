@@ -75,6 +75,12 @@
     }
   }
 
+  .bottom_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .bottom {
     font-size: var(--text-xs);
     display: flex;
@@ -86,6 +92,12 @@
     svg {
       color: red;
     }
+  }
+
+  .visitor_badge {
+    height: 24px;
+    border-radius: 4px;
+    opacity: 0.8;
   }
 
   .desktop {

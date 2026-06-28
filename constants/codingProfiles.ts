@@ -31,7 +31,7 @@ export const CODING_PROFILES: CodingProfileType[] = [
     id: "3",
     title: "GitHub",
     description:
-      "Active contributor building AI/ML projects — DebugLens, DocMind, ResearchCrew. Also maintaining production Flutter & Django codebases at Bryt.",
+      "Active contributor building AI/ML projects - DebugLens, DocMind, ResearchCrew. Also maintaining production Flutter & Django codebases at Bryt.",
     link: GITHUB_URL,
     icon: "github.png",
     logo: "github_logo.png",

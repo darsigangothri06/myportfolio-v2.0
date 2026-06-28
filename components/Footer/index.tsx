@@ -98,12 +98,19 @@ function Footer() {
 
       <div className={styles.seperator}></div>
 
-      <p className={`${styles.bottom} ${styles.desktop}`}>
-        Designed &amp; Developed by Gangothri Darsi — 2025
-      </p>
-      <p className={`${styles.bottom} ${styles.mobile}`}>
-        Gangothri Darsi — 2025
-      </p>
+      <div className={styles.bottom_row}>
+        <p className={`${styles.bottom} ${styles.desktop}`}>
+          Designed &amp; Developed by Gangothri Darsi - 2025
+        </p>
+        <p className={`${styles.bottom} ${styles.mobile}`}>
+          Gangothri Darsi - 2025
+        </p>
+        <img
+          src="https://api.visitorbadge.io/api/visitors?path=gangothridarsi-portfolio&label=Visitors&countColor=%237C3AED&labelColor=%231E1B4B"
+          alt="Visitor Count"
+          className={styles.visitor_badge}
+        />
+      </div>
     </div>
   );
 }

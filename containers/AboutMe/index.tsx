@@ -13,7 +13,7 @@ function AboutMe() {
       <div className={styles.container}>
         <div className={styles.left}>
           <p className={styles.description} data-aos="fade-up">
-            I own and ship production products end-to-end — from ideation to deployment. At Bryt, I built Tutor.ai from the ground up: an AI-powered app serving 15,000+ students with LLM tutoring agents, voice interaction, adaptive learning, and offline-first sync. Outside work, I build AI/ML tools like multi-agent research systems and RAG knowledge assistants.
+            I own and ship production products end-to-end - from ideation to deployment. At Bryt, I built Tutor.ai from the ground up: an AI-powered app serving 15,000+ students with LLM tutoring agents, voice interaction, adaptive learning, and offline-first sync. Outside work, I build AI/ML tools like multi-agent research systems and RAG knowledge assistants.
           </p>
           <div className={styles.qualities}>
             <ul>

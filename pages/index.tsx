@@ -39,7 +39,7 @@ function index() {
     <>
       <Head>
         <title>
-          Gangothri Darsi — Software Engineer | AI/ML &amp; Full-Stack
+          Gangothri Darsi - Software Engineer | AI/ML &amp; Full-Stack
         </title>
         <meta name="theme-color" content={"#000"} />
         <meta name="description" content="Software Engineer with 2.5+ years building AI-powered EdTech products. Full-stack expertise in Flutter, Django, LLM integration, and multi-agent systems." />

@@ -3,7 +3,7 @@ import { ProjectType } from "@/@types";
 export const PROJECTS: ProjectType[] = [
   {
     id: "1",
-    title: "DebugLens — Error Root-Cause Analyzer",
+    title: "DebugLens - Error Root-Cause Analyzer",
     description:
       "Paste a stack trace or error log, it reads your codebase (local repo or GitHub URL), traces the call chain to the root cause via AST-based code tracing (Tree-sitter), searches StackOverflow/GitHub Issues for similar problems, and suggests a fix with exact file + line reference. Features LLM reasoning chains and multi-source search agents.",
     project_type: "ai/ml",
@@ -14,7 +14,7 @@ export const PROJECTS: ProjectType[] = [
   },
   {
     id: "2",
-    title: "DocMind — RAG Knowledge Assistant",
+    title: "DocMind - RAG Knowledge Assistant",
     description:
       "Retrieval-Augmented Generation system for conversational Q&A over custom document collections. Features document chunking & embedding pipeline, vector similarity search with MMR reranking (ChromaDB), context-aware LLM responses with source citations, and an evaluation pipeline scoring faithfulness, relevance, and recall.",
     project_type: "ai/ml",
@@ -25,7 +25,7 @@ export const PROJECTS: ProjectType[] = [
   },
   {
     id: "3",
-    title: "ResearchCrew — Multi-Agent Research System",
+    title: "ResearchCrew - Multi-Agent Research System",
     description:
       "Give it a topic, 4 specialized agents (Planner, Searcher, Analyst, Synthesizer) autonomously research the web and produce structured reports with citations. Features LangGraph state machine orchestration, tool-calling agents, and WebSocket streaming showing each agent's reasoning in real-time.",
     project_type: "ai/ml",
@@ -36,7 +36,7 @@ export const PROJECTS: ProjectType[] = [
   },
   {
     id: "4",
-    title: "QuickBite — Food Delivery App",
+    title: "QuickBite - Food Delivery App",
     description:
       "Full-featured Zomato-style food ordering app built with Flutter. Features restaurant discovery with category filters, menu item customization (sizes, toppings), cart with promo codes, live order tracking (6-stage pipeline), offline-first sync with retry daemon, favorites, address/payment management, and Material 3 theming.",
     project_type: "mobile apps",

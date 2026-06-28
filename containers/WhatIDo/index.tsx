@@ -16,7 +16,7 @@ function WhatIDo() {
             Build&nbsp;•&nbsp;Ship&nbsp;•&nbsp;Scale
           </h1>
           <p className={styles.description} data-aos="fade-up">
-            I build AI-powered products end-to-end — from LLM-driven tutoring agents and RAG pipelines to production mobile apps with offline-first sync. I architect scalable backends with Django, craft pixel-perfect Flutter UIs with Riverpod, and deploy cloud-native systems on Firebase &amp; GCP.
+            I build AI-powered products end-to-end - from LLM-driven tutoring agents and RAG pipelines to production mobile apps with offline-first sync. I architect scalable backends with Django, craft pixel-perfect Flutter UIs with Riverpod, and deploy cloud-native systems on Firebase &amp; GCP.
           </p>
           <a href={EMAIL_ID_REDIRECT_URL} target="_blank">
             <Button data-aos="fade-up" size="large" variant="secondary">
