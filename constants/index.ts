@@ -35,6 +35,7 @@ export const OLD_PORTFOLIO_URL = "https://gangothridarsi.me"; // the url of my o
 export const WHATS_APP_LINK = "https://wa.link/gn88ir";
 export const COPYRIGHT_TEXT = "© 2025 Gangothri Darsi";
 export const LEETCODE_URL = "https://leetcode.com/gangothrid528/";
+export const TOPMATE_URL = "https://topmate.io/darsigangothri06";
 export const FB_URL = "";
 // regex constants
 export const EMAIL_REGEX =

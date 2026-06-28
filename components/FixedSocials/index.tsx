@@ -6,12 +6,14 @@ import {
   LEETCODE_URL,
   LINKEDIN_URL,
   MY_EMAIL_ID,
+  TOPMATE_URL,
 } from "@/constants";
 import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import React, { useEffect } from "react";
 
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { SiLeetcode } from "react-icons/si";
+import { BiUser } from "react-icons/bi";
 import styles from "@/styles/components/fixedSocials.module.scss";
 
 function FixedSocials() {
@@ -33,6 +35,9 @@ function FixedSocials() {
   return (
     <div className={styles.container}>
       <div className={styles.socials}>
+        <a href={TOPMATE_URL} title="Book a 1:1 session on Topmate">
+          <BiUser size={20} />
+        </a>
         <a href={LEETCODE_URL}>
           <SiLeetcode size={20} />
         </a>
@@ -48,9 +53,6 @@ function FixedSocials() {
         <a href={INSTAGRAM_URL}>
           <FiInstagram size={20} />
         </a>
-        {/* <a href={FB_URL}>
-          <FiFacebook size={20} />
-        </a> */}
       </div>
 
       <div

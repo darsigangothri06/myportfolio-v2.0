@@ -13,6 +13,7 @@ import {
   MY_EMAIL_ID,
   PROJECTS_TAG,
   SKILLS_TAG,
+  TOPMATE_URL,
   WHAT_I_DO_TAG,
 } from "@/constants";
 import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
@@ -20,6 +21,7 @@ import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import React from "react";
 import { SiLeetcode } from "react-icons/si";
+import { BiUser } from "react-icons/bi";
 import styles from "@/styles/components/footer.module.scss";
 
 function Footer() {
@@ -30,6 +32,9 @@ function Footer() {
         <h4 className={styles.logo}>© Gangothri Darsi</h4>
         {/* socials */}
         <div className={styles.socials}>
+          <a href={TOPMATE_URL} title="Book a 1:1 session on Topmate">
+            <BiUser size={25} />
+          </a>
           <a href={LEETCODE_URL}>
             <SiLeetcode size={25} />
           </a>
@@ -45,9 +50,6 @@ function Footer() {
           <a href={INSTAGRAM_URL}>
             <FiInstagram size={25} />
           </a>
-          {/* <a href={FB_URL}>
-            <FiFacebook size={25} />
-          </a> */}
         </div>
       </div>
 
