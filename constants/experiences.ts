@@ -6,7 +6,7 @@ export const EXPERIENCE: ExperienceType[] = [
     title: "Software Developer R&D",
     company: "Bryt Learning",
     description:
-      "Major contributor to Bryt Tutor.ai App (Flutter) - flagship product with 1,000+ DAU, 15,000+ students across 120+ schools. Built Brainie AI Assistant with LLM-powered Socratic tutoring, voice-based AI interaction, adaptive learning microservice, Parent Corner module, offline-first sync architecture, and analytics pipelines. Also actively contributing to Bryt Aspire App for student self-study.",
+      "Built production AI systems for Bryt's tutoring platform (15,000+ students, 120+ schools, 1,000+ DAU). Architected Brainie AI Assistant: live LLM tutoring agent with multi-model fallback (GPT-4o/Gemini/Claude) via LiteLLM. Built Socratic Hints Pipeline: offline LLM-generated pedagogical hints + TTS audio for 10,000+ MCQs. Implemented voice AI (STT/TTS pipeline). Designing adaptive learning microservice (Django). Owned Tutor.ai and Aspire apps end-to-end (Flutter).",
     from: "Dec 2023",
     to: "Present",
     certificate: "",

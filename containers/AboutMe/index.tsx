@@ -13,16 +13,16 @@ function AboutMe() {
       <div className={styles.container}>
         <div className={styles.left}>
           <p className={styles.description} data-aos="fade-up">
-            I build and ship production features end-to-end - from ideation to deployment. At Bryt, I'm a major contributor to Tutor.ai: an AI-powered app serving 15,000+ students with LLM tutoring agents, voice interaction, adaptive learning, and offline-first sync. Outside work, I build AI/ML tools like multi-agent research systems and RAG knowledge assistants.
+            I build and ship production AI systems end-to-end. At Bryt, I built an AI tutoring platform serving 15,000+ students: Socratic tutoring agents with multi-model LLM fallback (GPT-4o, Gemini, Claude), voice AI (STT/TTS), offline hint generation for 10,000+ questions, and adaptive learning pipelines. I also build open-source AI tools: multi-agent research systems (LangGraph), RAG knowledge assistants (ChromaDB), and code root-cause analyzers (Tree-sitter + LLM).
           </p>
           <div className={styles.qualities}>
             <ul>
-              <li data-aos="fade-up">Ship End-to-End</li>
-              <li data-aos="fade-up">AI/LLM Products</li>
+              <li data-aos="fade-up">Production LLM Systems</li>
+              <li data-aos="fade-up">RAG &amp; Multi-Agent AI</li>
             </ul>
             <ul>
-              <li data-aos="fade-up">Scalable Architecture</li>
-              <li data-aos="fade-up">Team Mentorship</li>
+              <li data-aos="fade-up">Full-Stack Delivery</li>
+              <li data-aos="fade-up">AI Architecture</li>
             </ul>
           </div>
           <div className={styles.btn_grp} data-aos="fade-up">

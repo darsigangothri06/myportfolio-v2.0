@@ -14,17 +14,17 @@ function Intro() {
             <p className={styles.greeting}>Hi There, I am -&gt;</p>
             <h1 className={styles.name}>Gangothri Darsi.</h1>
             <h3 className={styles.subtitle}>
-              Software Engineer • AI/ML &amp; Full-Stack
+              AI Engineer • Production LLM Systems &amp; Full-Stack
             </h3>
             <p className={styles.description}>
-              Software Engineer with 2.5+ years building AI-powered EdTech products at scale. Major contributor to Bryt&apos;s Tutor.ai app serving 1,000+ DAU across 120+ schools. Deep expertise in Flutter, Django, LLM integration, and adaptive learning systems.
+              AI Engineer building production LLM systems that serve real users. Built an AI tutoring platform serving 15,000+ students across 120+ schools, including Socratic tutoring agents, RAG pipelines, multi-agent orchestration, and voice AI. Full-stack: Python, Django, Flutter, LangChain, LangGraph.
             </p>
           </div>
           <div className={styles.stats}>
             <StatsCard count="1K" description="Daily Active Users" />
             <StatsCard count="15K" description="Students Impacted" />
-            <StatsCard count="6" description="Products Shipped" />
-            <StatsCard count="2.5" description="Years Experience" />
+            <StatsCard count="120" description="Schools Served" />
+            <StatsCard count="3" description="AI Projects (OSS)" />
           </div>
           <a href="/files/DarsiGangothriResume.pdf" target="_blank">
             <Button size="large">Download Resume</Button>
